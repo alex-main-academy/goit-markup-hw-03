@@ -37,11 +37,13 @@ ul {
     font-weight: 700;
     font-size: 36px;
 }
+.section {
+    padding: 94px 0;
+}
 
 
 /* header styles */
 .page-header {
-    background: var(--white-background);
     border-bottom: 1px solid #ECECEC;
 }
 .page-header .container {
@@ -108,7 +110,9 @@ ul {
 /* studia */
 /* page-solution styles */
 .page-solution {
-    background: var(--dark-backgorund);
+    padding: 200px 0;
+
+    background-color: var(--dark-backgorund);
     text-align: center;
 }
 .solution-title {
@@ -130,7 +134,7 @@ ul {
     font-size: 16px;
     line-height: 1.9;
     color: var(--white-color);
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     letter-spacing: 0.06em;
 
     border-radius: 4px;
@@ -141,9 +145,7 @@ ul {
 
 /* page-feature styles */
 .page-feature {
-    padding: 94px 0;
-
-    background: var(--white-background);
+    padding-bottom: 0;
 }
 .feature-list {
     display: flex;
@@ -176,10 +178,6 @@ ul {
 
 
 /* page-doing styles */
-.page-doing {
-    margin-bottom: 94px;
-    background: var(--white-background);
-}
 .doing-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -203,10 +201,7 @@ ul {
 
 /* page-team styles */
 .page-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
-    background: var(--lite-background);
+    background-color: var(--lite-background);
 }
 .team-title {
     margin-top: 0;
@@ -254,11 +249,6 @@ ul {
 
 /* portfolio */
 /* page-work styles */
-.page-work {
-    padding: 94px 0;
-
-    background: var(--white-background);
-}
 .work-title-hidden {
     margin: 0;
     height: 0;
@@ -285,7 +275,7 @@ ul {
     line-height: 1.6;
     text-align: center;
     color: #212121;
-    background: var(--button-background);
+    background-color: var(--button-background);
     border-radius: 4px;
     border: none;
 }
@@ -293,7 +283,7 @@ ul {
 .sort-btn:focus {
     outline: none;
     color: var(--white-color);
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     cursor: pointer;
 }
@@ -352,19 +342,19 @@ ul {
 .page-footer {
     padding: 60px 0;
 
-    background: var(--dark-backgorund);
+    background-color: var(--dark-backgorund);
 }
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
 
-    color: var(--accent-color);
+    color: var(--white-color);
     font-weight: 700;
     font-size: 26px;
     font-family: Raleway;
 }
 .footer-logo span {
-    color: var(--white-color);
+    color: var(--accent-color);
 }
 .footer-address {
     display: inline-block;
